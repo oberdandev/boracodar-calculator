@@ -41,6 +41,17 @@ body * {
     font-family: 'Rubik', sans-serif;
 }
 
+input{
+    border: 0;
+    background: transparent;
+    outline: none;
+    box-sizing: border-box;
+    font-size: 36px;
+    line-height: 140%;
+    color: white;
+    text-align: left;
+  }
+
 #result {
     margin-top: 8px;
     display: flex;
@@ -49,6 +60,8 @@ body * {
     line-height: 140%;
     color: white;
 }
+
+
 
 #last-calc {
     color: #6B6B6B;
